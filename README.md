@@ -1,1 +1,1 @@
-# bizter-landing
+# biznapps-landing

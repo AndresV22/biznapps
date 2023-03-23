@@ -15,8 +15,8 @@
       </div>
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">¡Bienvenido a Biznapps!</h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Cubrimos tus necesidades con soluciones innovadoras y de alta calidad</p>
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Casos de éxito aún no disponibles</h1>
+          <p class="mt-6 text-lg leading-8 text-gray-600">¡Sé el primero en aparecer en esta página! contáctanos para que trabajemos contigo.</p>
           
         </div>
       </div>

@@ -22,48 +22,49 @@
 </template>
 
 <script setup>
+
 const people = [
   {
     name: 'Andrés Alcaíno Castro',
     role: 'Chief Executive Officer / Co-Fundador / Desarrollador',
     linkedin: 'https://www.linkedin.com/in/andres-alcaino-castro/',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      new URL('/src/assets/andres.png', import.meta.url)
   },
   {
     name: 'Carla González Roa',
     role: 'Chief Marketing Officer / Co-Fundadora',
     linkedin: 'https://www.linkedin.com/in/carla-andrea-gonz%C3%A1lez-roa-138b93194/',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      new URL('/src/assets/carla.png', import.meta.url)
   },
   {
     name: 'Basil Ossandon Hostens',
     role: 'Chief Technology Officer / Desarrollador',
     linkedin: 'https://www.linkedin.com/in/basil-ossandon-hostens-104213196/',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      new URL('/src/assets/basil.png', import.meta.url)
   },
   {
     name: 'Valeria Zúñiga Bragado',
     role: 'Diseñadora UI/UX',
     linkedin: '',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      new URL('/src/assets/vale.png', import.meta.url)
   },
   {
     name: 'Juan Martínez Áviles',
     role: 'Chief Product Officer / Desarrollador',
     linkedin: 'https://www.linkedin.com/in/jpm343/',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      new URL('/src/assets/juan.png', import.meta.url)
   },
   {
     name: 'Rafael Alcaíno Castro',
     role: 'Diseñador UI/UX',
     linkedin: 'https://www.linkedin.com/in/rafael-alca%C3%ADno-castro-86a794224/',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      new URL('/src/assets/rafael.png', import.meta.url)
   },
 ]
 </script>

@@ -35,7 +35,7 @@ import { CircleStackIcon, UserCircleIcon, DevicePhoneMobileIcon, WrenchScrewdriv
 
 const features = [
   {
-    name: 'Desarroladores',
+    name: 'Desarrolladores',
     description:
       'Contamos con desarrolladores profesionales con muchos años de experiencia y con títulos de prestigiosas universidades de Chile.',
     icon: UserGroupIcon,
@@ -49,7 +49,7 @@ const features = [
   {
     name: 'Bases de datos y APIs',
     description:
-      'Nuestro equipo de desarrollo cuenta con experiencia en el desarrollo de bases de datos y APIs con los mayores estándares de seguridad.',
+      'Nuestro equipo de desarrollo cuenta con experiencia en el desarrollo de bases de datos y APIs con los mejores estándares de seguridad.',
     icon: CircleStackIcon,
   },
   {
@@ -61,7 +61,7 @@ const features = [
   {
     name: 'Mantenimiento y soporte',
     description:
-      'Contamos con la experiencia necesaria para mantener y soportar tus aplicaciones',
+      'Nuestro equipo se encargará de darte soporte y mantenimiento para ayudarte a mantener tu aplicación siempre en funcionamiento.',
     icon: WrenchScrewdriverIcon,
   },
   {

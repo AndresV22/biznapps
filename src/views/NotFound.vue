@@ -4,6 +4,7 @@ import Hero from '@/components/Hero.vue'
 import Header from '@/components/Header.vue'
 import Features from '@/components/Features.vue'
 import AboutUs from '@/views/AboutUs.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -29,6 +30,11 @@ import AboutUs from '@/views/AboutUs.vue'
     <!-- Email -->
     <section>
       <Newsletter/>
+    </section>
+
+    <!-- Footer -->
+    <section>
+      <Footer/>
     </section>
 </template>
 

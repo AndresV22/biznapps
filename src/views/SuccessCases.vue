@@ -2,6 +2,7 @@
 import Newsletter from '@/components/Newsletter.vue'
 import SuccessCasesInfo from '@/components/SuccessCasesInfo.vue'
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -20,6 +21,11 @@ import Header from '@/components/Header.vue'
     <!-- Email -->
     <section>
       <Newsletter/>
+    </section>
+
+    <!-- Footer -->
+    <section>
+      <Footer/>
     </section>
   </div>
 </template>

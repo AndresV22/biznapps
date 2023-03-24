@@ -1,5 +1,5 @@
 <template>
-  <header class="absolute inset-x-0 top-0 z-50">
+  <header class="bg-gray-900 absolute inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
@@ -14,7 +14,7 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-semibold leading-6 text-gray-900">{{ item.name }}</a>
+          <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-semibold leading-6 text-white">{{ item.name }}</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           
@@ -22,7 +22,7 @@
       </nav>
       <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-50" />
-        <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
@@ -36,7 +36,7 @@
           <div class="mt-6 flow-root">
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
-                <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
+                <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-700">{{ item.name }}</a>
               </div>
             </div>
           </div>

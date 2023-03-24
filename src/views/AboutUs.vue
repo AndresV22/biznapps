@@ -4,6 +4,7 @@ import Hero from '@/components/Hero.vue'
 import Header from '@/components/Header.vue'
 import Team from '@/components/Team.vue'
 import BiznappsInfo from '@/components/BiznappsInfo.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -24,9 +25,9 @@ import BiznappsInfo from '@/components/BiznappsInfo.vue'
       <Team/>
     </section>
 
-    <!-- Email -->
+    <!-- Footer -->
     <section>
-      <Newsletter/>
+      <Footer/>
     </section>
   </div>
 </template>

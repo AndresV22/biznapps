@@ -16,9 +16,9 @@ import Footer from '@/components/Footer.vue'
     </section>
 
     <!-- BiznappsInfo -->
-    <!-- <section>
+    <section>
       <BiznappsInfo/>
-    </section> -->
+    </section>
 
     <!-- Team -->
     <section>

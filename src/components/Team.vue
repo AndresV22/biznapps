@@ -52,8 +52,8 @@ const people = [
   },
   {
     name: 'Valeria Zúñiga Bragado',
-    role: 'Diseñadora UI/UX',
-    linkedin: '',
+    role: 'Chief Design Officer / Diseñadora UI/UX',
+    linkedin: 'https://www.linkedin.com/in/valeria-zu%C3%B1iga-65040a250/',
     imageUrl:
       new URL('/src/assets/vale.png', import.meta.url)
   },
@@ -66,7 +66,7 @@ const people = [
   },
   {
     name: 'Rafael Alcaíno Castro',
-    role: 'Diseñador UI/UX',
+    role: 'Chief Animation Officer / Diseñador UI/UX',
     linkedin: 'https://www.linkedin.com/in/rafael-alca%C3%ADno-castro-86a794224/',
     imageUrl:
       new URL('/src/assets/rafael.png', import.meta.url)
